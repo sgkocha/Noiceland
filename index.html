@@ -22,10 +22,10 @@
             </div>
             <nav>
                 <ul class="header-nav flexbox">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">Latest</a></li>
-                    <li class="nav-item"><a href="#">Featured</a></li>
-                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#latest">Latest</a></li>
+                    <li class="nav-item"><a href="#featured">Featured</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,7 +33,7 @@
     <main>
         <div class="container">
             <section>
-                <article class="article-main flexbox jc-between">
+                <article class="article-main flexbox jc-between" id="home">
                     <div class="article-main-img">
                         <img src="./images/main.png" alt="Japan house">
                     </div>
@@ -48,9 +48,8 @@
 
                 </article>
             </section>
-
             <section class="section">
-                <div class="section-container flexbox wrapped">
+                <div class="flexbox wrapped new-posts-box">
                     <article class="article">
                         <div class="article-img">
                             <img src="./images/article1.png" alt="article1">
@@ -120,8 +119,7 @@
                     </article>
                 </div>
             </section>
-
-            <section class="section">
+            <section class="section" id="latest">
                 <div class="section-category">LATEST POSTS</div>
                 <div class="section-container flexbox wrapped">
                     <article class="article latest-article">
@@ -214,7 +212,7 @@
                 </div>
                 <a href="#" class="more-link">view all latest posts</a>
             </section>
-            <section class="section">
+            <section class="section" id="featured">
                 <div class="section-category">featured posts</div>
                 <div class="section-container flexbox wrapped">
                     <article class="article featured-article">
@@ -264,7 +262,7 @@
 
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="about">
         <div class="container">
             <div class="footer-bar flexbox">
                 <div class="footer-logo"><img src="./images/footer-logo.png" alt="Noiceland"></div>
